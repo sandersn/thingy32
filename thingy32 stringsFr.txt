@@ -1,0 +1,141 @@
+Commande de thingy32 en Français:
+
+
+	frmThingy32(main form):
+
+S = Saut
+
+T = changez la table de caractère
+
+Espace = Sélectionnez pour modifier
+
+C = Cherchez
+
+R = Recherchez
+
+E = Extration
+
+I = Insertion
+
+H = cacHer les donnés hexadécimal
+
+Cliquez sur le raccourci pour exécuter la fonction respective 
+
+Prêt
+
+Position
+
+Utilse en ce moment la Table #1
+
+Information de l'Application thingy32 
+
+Nom Officiel:
+
+Version:
+
+Commentaire pour cette construction :
+
+Information sur les droits d'auteur :
+
+Information sur les droits de distribution :
+
+Sélectionné
+
+Ouvrir les donnés des fichiers :
+
+Tous les types Fichiers
+Snes
+Megadrive/Genesis
+Nes
+Master System
+Game Gear
+Gameboy
+Fichier Text
+
+Ouvrir Table #1
+
+Tous les types Fichiers
+Fichier Table
+
+Ouvrir Table #2(optionnel)
+
+Vous avez pesé sur Annuler. Voulez-vous quittez?
+
+Vous n'avez pas chargé de table. Si vous voulez quittez, appuyez sur Annuler. Pour revenir 
+et charger une table, appuyer sur Réessayer. Pour charger un fichier qui utilise la table ANSI,
+appuyez sur Ignoré.
+
+Description?
+(Éditer le fichier table pour modifier un signet; ils sont 
+entre  parenthèses.)
+(Titre = donné une description du signet)
+
+Recherche en ce moment :
+
+Sélectionner la fin de l'extraction
+
+Fichier de sorties?(NOTE : Ne pas peser annuler, sinon le programme va se fermer!)
+
+Tous les fichiers
+Fichier de donner
+Fichier Texte
+Fichier extrait
+Fichier de Sonic the Hedgehog 
+
+Selecting Insert End
+
+<END>
+
+
+	frmEdit:
+
+Écrivez votre texte ici: Peser Echap ou Entrer pour sauvegarder et 
+revenir à éditeur Hexadécimal.
+
+Marquez vos caractères hexa ici :
+
+Pregunta:O
+Pregunta:N
+
+16bit:O
+16bit:N
+
+Fait!
+
+Je suggère d'utilisé xxx tire...Mettre dans? (Title = Suggestion)
+
+Éditer le fichier de données
+
+Entrer les donnés à rechercher(Avertissement, la recherche peut être longue)
+
+
+	frmJump:
+
+Choisissez la location du saut
+
+Choisissez une Méthode d'extraction
+
+Choisissez un Méthode d'insertion
+
+OK
+
+Annuler
+
+Entrer la nouvelle location en tant que signet
+
+Adresse Manuel 
+
+Localisation Manuel
+
+Signet
+
+Marque d'extraction	<--Compound Word
+
+Marque d'insertion	<--Compound word
+
+Entré l'adresse décimale ou hexadécimal; l'adresse Hexadécimal doit avoir le préfixe & H
+(ex: &H100A) (Titre = Adresse Manuel)
+
+Traduction Par Card Master
+Leader de TeRMiNuS TRaDuCTioN
+WWW.geocities.com/Timessquare/Zone/5905/

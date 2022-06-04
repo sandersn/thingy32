@@ -1,0 +1,110 @@
+English strings in thingy32:
+
+
+	frmThingy32(main form):
+
+J = Jump
+
+T = Switch Table Files
+
+Space = Select to Edit
+
+S = Search
+
+R = Research
+
+D = Dump
+
+I  = Insert
+
+H = Hide Hex
+
+Click the labels to execute the respective function
+
+Ready
+
+Position
+
+Now using Table #1
+
+thingy32 Application Information
+
+Official name:
+
+Version:
+
+Comments for this build:
+
+Copyright Information:
+
+Trademark Information:
+
+Selecting                                                                            yo! Empty space                                                                                                                                                                                                                                                                                                                                                                he table file directly to remove bookmarks; they are enclosed in 
+parentheses.)
+(Title = Give Bookmark description)
+
+Current Search:
+
+Sele?(ing Dump End
+
+Output File?(NOTE: You may NOT press Cancel or the program will end!)
+
+All Files
+Data Files
+Text Files
+Dump Files
+Sonic the Hedgehog Files
+
+Selecting Insert End
+
+<END>
+
+
+	frmEdit:
+
+Type your text in here: Press ESC or Enter to save and return to the main
+hexeditor.
+
+Type your hex character in here:
+
+Pregunta:Y
+Pregunta:N
+
+16bit:Y
+16bit:N
+
+Done!
+
+I suggest using the xxx tile...put it in? (Title = Suggestion)
+
+Edit File Data
+
+Enter Search String(warning search is slow)
+
+
+	frmJump:
+
+Choose Jump Location
+
+Choose Dump Method
+
+Choose Insertion Method
+
+OK
+
+Cancel
+
+Add current location as new bookmark
+
+Manual Address
+
+Locate end manually
+
+Bookmarks
+
+Dumpmarks	<--Compound word
+
+Insertmarks	<--Compound word
+
+Enter Manual Address in Decimal or Hex; Hex must be prefixed with &H
+(i.e. &H100A) (Title = Manual Address)

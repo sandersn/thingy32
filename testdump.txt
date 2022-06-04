@@ -1,0 +1,12 @@
+Start: F9 ( 249)  End: 12C ( 300)
+
+
+n<END>
+<END>
+Ready<END>
+<END>
+Position<END>
+<END>
+Now using Table #1<END>
+<END>
+thin<END>

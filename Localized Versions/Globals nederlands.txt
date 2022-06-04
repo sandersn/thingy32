@@ -1,0 +1,133 @@
+'Tis is Dutch Thingy32, ver 0.17
+'String Constants section:
+'these are the Constants that determine what language you are using.  Translate them into xxx language and thingy32 should
+'be in that language. I didn't want to use a .rc file(they're not native to VB) so this is the alternative.
+'These strings used in frmThingy32:
+'shortcut keys
+Public Const JumpKey = "G"
+Public Const TableSwitchKey = "T"
+Public Const EditSelKey = " "
+Public Const SearchKey = "Z"
+Public Const ReSearchKey = "R"
+Public Const DumpKey = "D"
+Public Const InsertKey = "I"
+Public Const HideHexKey = "H"
+Public Const OptionsKey = "O" '***
+Public Const MoreWidthKey = "."
+Public Const LessWidthKey = ","
+'shortcut labels(all are visual elements)
+'** HideHexLabel y TableSwitchLabel son borrado
+Public Const JumpLabel = "G = Ga naar..."
+Public Const OptionsLabel = "O = Opties" '***
+Public Const EditSelLabel = "Space = Kiezen om te bewerken"
+Public Const SearchLabel = "Z = Zoeken"
+Public Const ReSearchLabel = "R = Opnieuw-zoeken"
+Public Const DumpLabel = "D = Dump"
+Public Const InsertLabel = "I = Invoegen"
+Public Const PositionLabel = "Positie: "
+Public Const MoreWidthLabel = "Meer Brete = >"
+Public Const LessWidthLabel = "< = Minder Brete"
+'menus ***
+Public Const OpenNewFile = "Open &Nieuwe File..."
+Public Const OpenNewTable = "&Open Nieuw Table..."
+Public Const ReloadTable = "&Herlaad Deze Tabel"
+Public Const HideHex = "&Verberg Hex"
+Public Const TableSwitch = "Kies tussen &Tabel Files"
+Public Const JumpManual = "&Spring handmatig..."
+Public Const DumpManual = "&Dump handmatig met deze locatie als start gebruiken"
+Public Const InsertManual = "&Invoegen mat huidige locatie als start punt"
+Public Const AddNewBookMark = "&Gebruik huidige locatie als nieuwe Bookmark..."
+Public Const AddNewDumpMark = "&Gebruik huidige locatie als nieuwe Dumpmark..."
+Public Const AddNewInsertMark = "&Gebruik huidige locatie als nieuwe Insertmark..."
+'misc messages
+Public Const LabelTooltip = "Click op de labels om de actie uit te voeren" 'visual element
+Public Const OptionsTooltip = "Click voor opties menu"
+Public Const ReadyMsg = "Klaar voor gebruik"
+Public Const UsingTableMsg = "Nu Tabel # in gebruik"
+Public Const SelectingMsg = "Selecteren"
+Public Const CurrentSearch = "Huidige zoekactie: "
+Public Const SelDumpEnd = "Druk op " & DumpKey & " aan het einde van de dump" '**
+Public Const SelInsertEnd = "Druk op " & InsertKey & " aan het einde van de dump" '**
+'misc--load ***
+Public Const ErrorLoadingDataFromCommand = "Niet-bestaande data file of pad in shortcut! Je moet de file normaal laden." & vbCrLf &
+"Waarschuwing: Je moet de tabel files ook handmatig laden, zelfs als dat pad WEL bestaat."
+Public Const ErrorLoadingDataTitle = "Error door file load"
+Public Const ErrorLoadingTableFromCommand = "Niet-besstaande tabel file of pad in shortcut! Je moet de file normaal laden."
+Public Const ErrorLoadingTableTitle = "Error door tabel load"
+Public Const ErrorLoadingTable2Title = "Error door 2e tabel load"
+'app info
+Public Const InfoTitle = "thingy32 Applicatie Informatie:"
+Public Const InfoName = "Officieele naam: "
+Public Const InfoVersion = "Versie: "
+Public Const InfoComments = "Commentaar voor deze versie: "
+Public Const InfoCopyright = "Copyright Informatie: "
+Public Const InfoTrademarks = "Trademark Informatie: "
+'program start sequence(in LoadFiles mainly)
+Public Const OpenDataFile = "Open Data File"
+Public Const DataFileTypes = "Alle Files(*.*)|*.*|Snes Files(*.smc,*.swc,*.sfc,*.fig, and
+others)|*.smc;*.swc;*.sfc;*.fig;*.058;*.078;*.1;*.2;*.3|Nes Files(*.nes)|*.nes|Genesis/Megadrive/32x Files(*.smd,
+*.bin,*.32x)|*.smd;*.bin;*.32x|Master System Files(*.sms)|*.sms|Game Gear Files(*.gg)|*.gg|Game Boy Files(*.gb)|*.gb|Tekst
+Files(*.txt)|*.txt"
+Public Const OpenTableFile1 = "Open Tabel File nr1"
+Public Const TableFileTypes = "Alle Files(*.*)|*.*|Tabel Files(*.tbl)|*.tbl"
+Public Const OpenTableFile2 = "Open Tabel File nr2(optioneel)"
+Public Const CancelData = "Je hebt op Cancel gedrukt, wil je afsluiten?"
+Public Const CancelTable = "Je hebt geen tabel file geload, wil je afsluiten, druk op Abort. Om terug te keren om een tabel file te
+laden druk op Retry. Om de standaart ANSI codering to te passen, druk op Ignore."
+'various extra things in code
+Public Const GetBookmark = "Beschrijving?" & vbCrLf & vbCrLf & "(Edit de tabel file direct om de bookmarks te verwijderen.)"
+Public Const GetBookmarkTitle = "Geef Bookmark beschrijving"
+'***
+Public Const GetDumpmark = "Beschrijving?" & vbCrLf & vbCrLf & "(Edit de tabel file direct om de dumpmarks te verwijderen.)"
+Public Const GetDumpmarkTitle = "Geef Dumpmark beschrijving"
+Public Const GetInsertmark = "Beschrijving?" & vbCrLf & vbCrLf & "(Edit de tabel file direct om de insertmarks te verwijderen.)"
+Public Const GetInsertmarkTitle = "Geef Insertmark beschrijving"
+Public Const UseLegacyInsertMarkYesNo = "Weet je zeker dat je een thingformaat bookmark wil maken?."
+Public Const InsertionMethod = "Invoeg Methode"
+Public Const GetEndLocation = "Specificeer een ein locatie:"
+Public Const GetEndLocationtitle = "Eind Locatie"
+Public Const GetOutputFile = "Uitvoer file?"
+Public Const OutputFileType = "Alle Files(*.*)|*.*|Tekst Files(*.txt)|*.txt|Data Files(*.dat)|*.dat|Dump Files(*.dump)|*.dump|Sonic
+the Hedgehog Files(*.sonic)|*.sonic"
+Public Const DumpStart = "Start: "
+Public Const DumpEnd = " Einde: "
+'***
+'these next strings are used in frmEdit:
+'instructions
+Public Const TypeTextHere = "Typ je tekst hier: druk op ESC of Enter om te saven en terug te keren naar de hexeditor."
+Public Const TypeHexHere = "Typ je hex charakter hier:"
+Public Const ChangeRelSearch = "Verander naar relatieve zoekactie"
+Public Const ChangeTblSearch = "Verander naar tabel zoekactie"
+Public Const AlphaOrder = "Alfabet sorteren"
+'messages
+Public Const AskYes = "Ask:Y"
+Public Const AskNo = "Ask:N"
+Public Const Bit16Yes = "16bit:Y"
+Public Const Bit16No = "16bit:N"
+Public Const DoneMsg = "Klaar!"
+Public Const SuggestMsg1 = "Ik suggereer de " 'first and second half
+Public Const SuggestMsg2 = " tile... invoeren?"
+Public Const SuggestTitle = "Suggestie"
+'2 different titles for the form
+Public Const TitleEdit = "Edit File Data"
+Public Const TitleSearch = "Typ zoekwoord (waarschuwing: Zoeken gaat langzaam)"
+'these next string are used in frmJump:
+'3 diff titles for the form
+Public Const TitleJump = "Kies Jump Locatie"
+Public Const TitleDump = "Kies Dump Methode"
+Public Const TitleInsert = "Kies Inserteer Methode"
+'visual elements
+Public Const OK = "OK"
+Public Const Cancel = "Annuleren"
+Public Const AddCurrent = "&Gebruik huidig adress als bookmark"
+Public Const ManualJump = "&Handmatig adress"
+Public Const ManualDumpOrInsert = "Vind het einde &Handmatig"
+Public Const BookmarkLabel = "&Bookmarks" '***
+Public Const DumpmarkLabel = "&Dumpmarks" '***
+Public Const InsertmarkLabel = "&Insertmarks" '***
+'messages
+Public Const ManualMsg = "Typ handmatig adress in Decimal of Hex; Hex moet &H bevatten " & vbCrLf & vbCrLf & "(vrbld. &H100A)"
+Public Const ManualTitle = "Handmatig adress"
+'Relative search messages:
+Public Const NeedMoreThanTwoValues = "Je moet minstens 2 waarden invoeren voor een relatieve zoekactie!"
+
